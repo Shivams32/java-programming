@@ -1,0 +1,26 @@
+package function;
+
+import java.util.Scanner;
+
+public class palindrome {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int num=sc.nextInt();
+	 int reverse=0;
+	int	t=num;	 
+     while(num>0) {
+    	 int r=num%10;
+    	 reverse=reverse*10+r;
+    	 num=num/10;
+    	 }
+      
+     if(t==reverse) {
+        	 System.out.println("NUMBER IS PLAINDROME");
+         }
+         else {
+        	 System.out.println("NUMBER IS NOT PLAINDROME");
+         }
+}
+}
