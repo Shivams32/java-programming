@@ -1,0 +1,15 @@
+package function;
+
+public class count {
+
+	public static void main(String[] args) {
+		int num=12999;
+		int sum=0;
+		while(num!=0){
+			num=num/10;
+			sum++;
+		}
+System.out.println(sum);
+	}
+
+}
