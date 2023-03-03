@@ -1,0 +1,16 @@
+package function;
+
+public class productofdigits {
+
+	public static void main(String[] args) {
+		int num=123456789,sum=1,r;
+		while(num>0) {
+			r=num%10;
+			sum=sum*r;
+			num=num/10;
+		}
+		System.out.println(sum);
+
+	}
+
+}
