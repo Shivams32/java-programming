@@ -1,0 +1,13 @@
+package function;
+
+public class powerfind {
+
+	public static void main(String[] args) {
+		int a=2,b=5,p=1;
+		for(int i=1;i<=b;i++) {
+			p=a*p;
+		}
+System.out.println(p);
+	}
+
+}
