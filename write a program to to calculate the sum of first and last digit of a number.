@@ -1,0 +1,19 @@
+package function;
+
+public class sumoffirstandlast {
+
+	public static void main(String[] args) {
+	 int num=123;
+	 int count=0;
+	 int sum=0;
+	 int last=num%10;
+	  while(num>=10) {
+		 count++;
+		 num=num/10;
+	 }
+	 int First=num;
+sum=First+last;
+System.out.println(sum);
+	}
+
+}
