@@ -1,0 +1,21 @@
+package function;
+
+public class frequencyofnum {
+
+	public static void main(String[] args) {
+		int num =12223;
+		int f[]=new int[10];
+		while(num>0) {
+			int r=num%10;
+			f[r]++;
+			num =num/10;
+		}
+		for(int i=0;i<f.length;i++) {
+			if(f[i]!=0) { 
+				System.out.println(i+" comes "+f[i]+" times");
+			}
+		}
+		}
+
+	}
+
