@@ -1,0 +1,22 @@
+package function;
+
+import java.util.Scanner;
+
+public class productoffirstandlast {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number:");
+        int num=sc.nextInt();
+        int count=0,p;
+        int last=num%10;
+        while(num>=10) {
+        	count++;
+        	num=num/10;
+        }
+        int first=num;
+        p=first*last;
+        System.out.println("PRODUCT:"+p);
+	}
+
+}
