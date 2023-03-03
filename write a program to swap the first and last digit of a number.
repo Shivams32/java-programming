@@ -1,0 +1,19 @@
+package function;
+
+public class swap {
+
+	public static void main(String[] args) {
+		int num=123,t=num,count=0;
+		int last=num%10;
+		while(num>=10) {
+			count++;
+			num=num/10;
+		}
+	 int first=num;
+		t=t/10;
+		int p=(int)Math.pow(10, count-1);
+		int mid=t%p;
+		int Num=last*(int)Math.pow(10, count)+mid*10+first;
+		System.out.println(Num);
+		}
+}
